@@ -1,4 +1,5 @@
 import React from 'react'
+import me from '../images/me.jpg'
 import { Link } from 'react-router-dom'
 
 export default function Home() {
@@ -22,8 +23,8 @@ export default function Home() {
           </p>
         </div>
         <div className="hero-photo-wrap">
-          <div className="hero-photo-placeholder">SH</div>
-        </div>
+          <img src={me} alt="Shuvo Hasan" />     
+             </div>
       </div>
 
       {/* Highlights */}

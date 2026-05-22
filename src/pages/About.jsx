@@ -1,4 +1,6 @@
 import React from 'react'
+import me from '../images/me.jpg'
+
 
 export default function About() {
   return (
@@ -53,7 +55,9 @@ export default function About() {
         </div>
 
         <div>
-          <div className="about-photo-placeholder">SH</div>
+          {/* <div className="about-photo-placeholder">SH</div> */}
+                    <img src={me} alt="Shuvo Hasan" />     
+          
         </div>
       </div>
     </section>
