@@ -1,4 +1,4 @@
-# Mehedi Hasan — Personal Website
+# Shuvo Hasan — Personal Website
 
 A clean, academic personal website built with React and Vite — inspired by [sgkang.github.io](https://sgkang.github.io/).
 
@@ -65,7 +65,7 @@ All content is in `src/pages/`. Update each page file with your real information
 Replace the `<div className="hero-photo-placeholder">SH</div>` in `Home.jsx` with:
 
 ```jsx
-<img className="hero-photo" src="/images/profile.jpg" alt="Mehedi Hasan" />
+<img className="hero-photo" src="/images/profile.jpg" alt="Shuvo Hasan" />
 ```
 
 Then put your photo at `public/images/profile.jpg`.

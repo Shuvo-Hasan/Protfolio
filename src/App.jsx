@@ -67,7 +67,7 @@ function Layout() {
   return (
     <div className="site-wrapper">
       <header className="mobile-header">
-        <h2>Mehedi Hasan</h2>
+        <h2>Shuvo Hasan</h2>
         <button className="menu-toggle" onClick={() => setMenuOpen(o => !o)} aria-label="Toggle menu">
           <i className={menuOpen ? 'fa-solid fa-xmark' : 'fa-solid fa-bars'}></i>
         </button>
@@ -88,7 +88,7 @@ function Layout() {
         </Routes>
 
         <footer className="site-footer">
-          <p>© 2025 Mehedi Hasan · All rights reserved.</p>
+          <p>© 2025 Shuvo Hasan · All rights reserved.</p>
           <div className="footer-links">
             <a href="#/contact">Contact</a>
             <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
