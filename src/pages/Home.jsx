@@ -9,7 +9,7 @@ export default function Home() {
       <div className="home-hero">
         <div className="hero-text">
           <p className="hero-greeting">Welcome</p>
-          <h1 className="hero-name">Shuvo Hasan</h1>
+          <h1 className="hero-name">Mehedi Hasan</h1>
           <div className="hero-roles">
             <span className="role-chip">Researcher</span>
             <span className="role-chip">Software Developer</span>
@@ -23,7 +23,7 @@ export default function Home() {
           </p>
         </div>
         <div className="hero-photo-wrap">
-          <img src={me} alt="Shuvo Hasan" />     
+          <img src={me} alt="Mehedi Hasan" />     
              </div>
       </div>
 

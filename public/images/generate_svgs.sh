@@ -41,5 +41,5 @@ create_svg "oss-invkit" "InvKit" "#2a1a3a" "#251540" "🔄"
 create_svg "oss-sciedu" "SciEdu" "#3a2a10" "#503510" "🎓"
 create_svg "oss-opensurvey" "OpenSurvey BD" "#1a3a35" "#103530" "🗺"
 create_svg "oss-repcheck" "RepCheck" "#1a2535" "#102535" "✓"
-create_svg "profile-hero" "Shuvo Hasan" "#1a3a2a" "#2d6147" "SH"
+create_svg "profile-hero" "Mehedi Hasan" "#1a3a2a" "#2d6147" "SH"
 

@@ -12,7 +12,7 @@ export default function About() {
       <div className="about-grid">
         <div>
           <p>
-            I'm Shuvo Hasan, a researcher and software developer based in Dhaka, Bangladesh.
+            I'm Mehedi Hasan, a researcher and software developer based in Dhaka, Bangladesh.
             My work sits at the crossroads of computational science, data analysis, and open-source
             software development. I'm passionate about making scientific tools and knowledge
             accessible to everyone, regardless of their background or location.
@@ -56,7 +56,7 @@ export default function About() {
 
         <div>
           {/* <div className="about-photo-placeholder">SH</div> */}
-                    <img src={me} alt="Shuvo Hasan" />     
+                    <img src={me} alt="Mehedi Hasan" />     
           
         </div>
       </div>
