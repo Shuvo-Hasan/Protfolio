@@ -4,7 +4,6 @@ import { Link, useParams, useNavigate } from 'react-router-dom'
 const RESEARCH = [
   {
     id: 'inverse-problems',
-    num: '01',
     image: '/images/research-inverse.svg',
     title: 'Computational Methods for Inverse Problems',
     short: 'Efficient numerical algorithms for solving inverse problems at scale.',
@@ -22,7 +21,6 @@ const RESEARCH = [
   },
   {
     id: 'data-science',
-    num: '02',
     image: '/images/research-datascience.svg',
     title: 'Data Science for Scientific Discovery',
     short: 'ML and statistical pipelines that turn raw data into reproducible insight.',
@@ -40,7 +38,6 @@ const RESEARCH = [
   },
   {
     id: 'open-source',
-    num: '03',
     image: '/images/research-opensource.svg',
     title: 'Open Source Scientific Software',
     short: 'Building community tools that lower the barrier to complex computing.',
@@ -58,7 +55,6 @@ const RESEARCH = [
   },
   {
     id: 'remote-sensing',
-    num: '04',
     image: '/images/research-remote.svg',
     title: 'Remote Sensing & Geospatial Analysis',
     short: 'Automated workflows for extracting knowledge from satellite data.',
@@ -76,7 +72,6 @@ const RESEARCH = [
   },
   {
     id: 'science-education',
-    num: '05',
     image: '/images/research-education.svg',
     title: 'Science Education & Outreach',
     short: 'Interactive tools that make advanced science accessible to everyone.',
@@ -103,7 +98,6 @@ function ResearchCard({ item, index }) {
     >
       <div className="research-card-img-wrap">
         <img className="research-card-img" src={item.image} alt={item.title} />
-        <div className="research-card-num">{item.num}</div>
         <div className="research-card-arrow">
           <i className="fa-solid fa-arrow-right"></i>
         </div>

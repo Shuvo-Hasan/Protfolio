@@ -10,7 +10,7 @@ export default function Contact() {
       <div className="contact-grid">
         <div>
           <p style={{ marginBottom: '1.5rem', color: 'var(--text-secondary)' }}>
-            I'm always happy to hear from researchers, developers, students, and anyone
+            I'm always happy to hear from researchers, fellow developers, students, and anyone
             curious about my work. Whether you have a question, want to collaborate, or
             just want to say hello — feel free to reach out.
           </p>
@@ -19,7 +19,7 @@ export default function Contact() {
             <div className="contact-icon"><i className="fa-solid fa-envelope"></i></div>
             <div>
               <h4>Email</h4>
-              <a href="mailto:shuvo.hasan@example.com">shuvo.hasan@example.com</a>
+              <a href="mailto:shuvohasan9812@gmail.com">shuvohasan9812@gmail.com</a>
             </div>
           </div>
 
@@ -27,7 +27,7 @@ export default function Contact() {
             <div className="contact-icon"><i className="fa-brands fa-github"></i></div>
             <div>
               <h4>GitHub</h4>
-              <a href="https://github.com/" target="_blank" rel="noreferrer">github.com/shuvohasan</a>
+              <a href="www.github.com/Shuvo-Hasan" target="_blank" rel="noreferrer">github.com/Shuvo-Hasan</a>
             </div>
           </div>
 
@@ -35,15 +35,7 @@ export default function Contact() {
             <div className="contact-icon"><i className="fa-brands fa-linkedin-in"></i></div>
             <div>
               <h4>LinkedIn</h4>
-              <a href="https://linkedin.com/" target="_blank" rel="noreferrer">linkedin.com/in/shuvohasan</a>
-            </div>
-          </div>
-
-          <div className="contact-item">
-            <div className="contact-icon"><i className="fa-brands fa-x-twitter"></i></div>
-            <div>
-              <h4>Twitter / X</h4>
-              <a href="https://twitter.com/" target="_blank" rel="noreferrer">@shuvohasan</a>
+              <a href="www.linkedin.com/in/mehedi-hasan-060867320" target="_blank" rel="noreferrer">linkedin.com/in/mehedi-hasan-060867320</a>
             </div>
           </div>
 
@@ -66,10 +58,11 @@ export default function Contact() {
             </p>
             <br />
             <p>
-              For the fastest response, email is best. I aim to reply within 2–3 business days.
+              For the fastest response, email is best. I aim to reply within 1-2 business days.
             </p>
           </div>
 
+          {/*
           <div className="contact-form-note" style={{ marginTop: '1.25rem' }}>
             <h3>Academic Profiles</h3>
             <p>
@@ -89,6 +82,7 @@ export default function Contact() {
               ))}
             </div>
           </div>
+          */}
         </div>
       </div>
     </section>

@@ -4,7 +4,6 @@ import Home from './pages/Home.jsx'
 import About from './pages/About.jsx'
 import Research from './pages/Research.jsx'
 import Papers from './pages/Papers.jsx'
-import OpenScience from './pages/OpenScience.jsx'
 import Contact from './pages/Contact.jsx'
 
 function Sidebar({ isOpen, onClose }) {
@@ -13,7 +12,6 @@ function Sidebar({ isOpen, onClose }) {
     { to: '/about',        label: 'About',        icon: 'fa-solid fa-user' },
     { to: '/research',     label: 'Research',     icon: 'fa-solid fa-flask' },
     { to: '/papers',       label: 'Papers',       icon: 'fa-solid fa-file-lines' },
-    { to: '/open-science', label: 'Open Science', icon: 'fa-solid fa-code-branch' },
     { to: '/contact',      label: 'Contact',      icon: 'fa-solid fa-envelope' },
   ]
 
@@ -82,8 +80,6 @@ function Layout() {
           <Route path="/research"               element={<Research />} />
           <Route path="/research/:id"           element={<Research />} />
           <Route path="/papers"                 element={<Papers />} />
-          <Route path="/open-science"           element={<OpenScience />} />
-          <Route path="/open-science/:id"       element={<OpenScience />} />
           <Route path="/contact"                element={<Contact />} />
         </Routes>
 
