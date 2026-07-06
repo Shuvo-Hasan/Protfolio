@@ -27,7 +27,7 @@ export default function Contact() {
             <div className="contact-icon"><i className="fa-brands fa-github"></i></div>
             <div>
               <h4>GitHub</h4>
-              <a href="www.github.com/Shuvo-Hasan" target="_blank" rel="noreferrer">github.com/Shuvo-Hasan</a>
+              <a href="https://www.github.com/Shuvo-Hasan" target="_blank" rel="noreferrer">Visit my GitHub Profile</a>
             </div>
           </div>
 
@@ -35,7 +35,7 @@ export default function Contact() {
             <div className="contact-icon"><i className="fa-brands fa-linkedin-in"></i></div>
             <div>
               <h4>LinkedIn</h4>
-              <a href="www.linkedin.com/in/mehedi-hasan-060867320" target="_blank" rel="noreferrer">linkedin.com/in/mehedi-hasan-060867320</a>
+              <a href="https://www.linkedin.com/in/mehedi-hasan-060867320" target="_blank" rel="noreferrer">Visit my LinkedIn Profile</a>
             </div>
           </div>
 
