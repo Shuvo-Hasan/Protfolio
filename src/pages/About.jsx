@@ -6,7 +6,7 @@ export default function About() {
   return (
     <section className="page-section">
       <h2 className="section-title">About Me</h2>
-      <p className="section-subtitle">Researcher · Data Scientist · Educator</p>
+      <p className="section-subtitle">Researcher · Data Scientist · Scientific Inquirer</p>
       <div className="divider"></div>
 
       <div className="about-grid">

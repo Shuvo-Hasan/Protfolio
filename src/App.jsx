@@ -22,7 +22,7 @@ function Sidebar({ isOpen, onClose }) {
         <div className="sidebar-brand">
           <div className="sidebar-avatar">SH</div>
           <h1>Mehedi Hasan</h1>
-          <p className="tagline">Researcher · Developer</p>
+          <p className="tagline"></p>
         </div>
 
         <nav className="sidebar-nav">
@@ -41,17 +41,11 @@ function Sidebar({ isOpen, onClose }) {
         </nav>
 
         <div className="sidebar-socials">
-          <a href="https://github.com/" target="_blank" rel="noreferrer" title="GitHub">
+          <a href="https://https://github.com/Shuvo-Hasan" target="_blank" rel="noreferrer" title="GitHub">
             <i className="fa-brands fa-github"></i>
           </a>
-          <a href="https://twitter.com/" target="_blank" rel="noreferrer" title="X / Twitter">
-            <i className="fa-brands fa-x-twitter"></i>
-          </a>
-          <a href="https://linkedin.com/" target="_blank" rel="noreferrer" title="LinkedIn">
+          <a href="https://https://www.linkedin.com/in/mehedi-hasan-060867320" target="_blank" rel="noreferrer" title="LinkedIn">
             <i className="fa-brands fa-linkedin-in"></i>
-          </a>
-          <a href="https://scholar.google.com/" target="_blank" rel="noreferrer" title="Google Scholar">
-            <i className="fa-brands fa-google"></i>
           </a>
         </div>
       </aside>
@@ -84,10 +78,9 @@ function Layout() {
         </Routes>
 
         <footer className="site-footer">
-          <p>© 2025 Mehedi Hasan · All rights reserved.</p>
+          <p>© 2026 Mehedi Hasan · All rights reserved.</p>
           <div className="footer-links">
             <a href="#/contact">Contact</a>
-            <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
           </div>
         </footer>
       </main>
