@@ -20,7 +20,7 @@ function Sidebar({ isOpen, onClose }) {
       <div className={`sidebar-overlay ${isOpen ? 'open' : ''}`} onClick={onClose} />
       <aside className={`sidebar ${isOpen ? 'open' : ''}`}>
         <div className="sidebar-brand">
-          <div className="sidebar-avatar">SH</div>
+          <div className="sidebar-avatar">MH</div>
           <h1>Mehedi Hasan</h1>
           <p className="tagline"></p>
         </div>

@@ -72,7 +72,7 @@ export default function About() {
         </div>
 
         <div>
-          {/* <div className="about-photo-placeholder">SH</div> */}
+          {/* <div className="about-photo-placeholder">MH</div> */}
                     <img src={me} alt="Mehedi Hasan" />     
           
         </div>
