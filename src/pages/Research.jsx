@@ -32,13 +32,13 @@ const RESEARCH = [
   },
   {
     id: 'operator_learning_RGD',
-    title: 'Neural Operator Learning for Boltzmann Transport Equation in Radiative Gas Dynamics',
-    short: 'Using neural operator learning (DeepONet) to solve the Boltzmann transport equation in radiative gas dynamics.',
+    title: 'Neural Operator Learning for Boltzmann Transport Equation in Rarefied Gas Dynamics',
+    short: 'Using neural operator learning (DeepONet) to solve the Boltzmann transport equation in rarefied gas dynamics.',
     tags: ['Rarefied Gas Dynamics', 'Transport Phenomena', 'Neural Operator Learning', 'Physics-Informed Machine Learning', 'Python', 'PyTorch'],
     overview: `The Boltzmann transport equation (BTE) is a fundamental equation in rarefied gas dynamics that describes the behavior of gas molecules in non-equilibrium conditions. Traditional numerical methods for solving the BTE can be computationally expensive and time-consuming, especially for complex geometries and high-dimensional problems. In this research, we explore the use of neural operator learning, specifically DeepONet, to efficiently solve the BTE. By leveraging the power of deep learning, we aim to develop a surrogate model that can accurately predict gas molecule distributions under various conditions, significantly reducing computation time while maintaining high accuracy.`,
     highlights: [
       'Developing a DeepONet-based surrogate model for the Boltzmann transport equation in rarefied gas dynamics',
-      'Trying to solve the full 3D Boltzmann transport equation in radiative gas dynamics using physics-informed neural operator learning',
+      'Trying to solve the full 3D Boltzmann transport equation in rarefied gas dynamics using physics-informed neural operator learning',
       'Comparing the performance of neural operator learning with traditional numerical methods for solving the BTE',
     ],
     tools: ['Python', 'PyTorch', 'NumPy', 'SciPy', 'Matplotlib'],
