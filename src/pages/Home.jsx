@@ -13,7 +13,7 @@ export default function Home() {
           <div className="hero-roles">
             <span className="role-chip">Researcher</span>
             <span className="role-chip">Data Scientist</span>
-            <span className="role-chip">Scientific Inquirer</span>
+            <span className="role-chip">Lifelong Learner</span>
           </div>
           <p className="hero-bio">
             Bangladeshi researcher, aspiring scientist, and former data scientist passionate about applying AI to solve problems in science and engineering,
