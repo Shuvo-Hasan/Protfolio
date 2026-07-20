@@ -81,10 +81,10 @@ const RESEARCH = [
   },
   {
     id: 'xAI',
-    title: 'Explainable Artificial Intelligence',
-    short: 'Investigating the principles and applications of explainable artificial intelligence in scientific domains.',
-    tags: ['Artificial Intelligence', 'Explainability', 'Scientific Computing'],
-    overview: `Explainable artificial intelligence (XAI) is a field that aims to make machine learning models more transparent and interpretable. In this research, we explore the application of XAI techniques in scientific domains, focusing on improving the understanding and trustworthiness of AI-driven predictions.`,
+    title: 'Interpretability and Explainability in Scientific Machine Learning',
+    short: 'Exploring the application of explainable artificial intelligence (XAI) techniques in scientific machine learning.',
+    tags: ['Artificial Intelligence', 'Explainability', 'Scientific Machine Learning'],
+    overview: `Explainable artificial intelligence (XAI) is a field that aims to make machine learning models more transparent and interpretable. In this research, we explore the application of XAI techniques in physics-aware machine learning, focusing on improving the understanding and trustworthiness of AI-driven predictions.`,
     paper: null,
     highlights: [
       'Integrating explainable artificial intelligence (XAI) techniques into scientific machine learning workflows to ensure the AI models are giving correct predictions.',
